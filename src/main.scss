@@ -1,5 +1,3 @@
-@use 'reset';
-@use 'variables';
-@use 'utilities';
-@use 'base';
-@use 'styles';
+@use './reset' as reset;
+@use './variables/' as variables;
+@use './base/' as base;
