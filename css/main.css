@@ -120,25 +120,77 @@ body {
 h1 {
   font-size: 60px;
   font-weight: 700;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 500;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 400;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
 h4 {
   font-size: 10px;
   font-weight: 300;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
 }
 
-li {
-  text-align: center;
+.p-2 {
+  padding: 1rem 1rem !important;
+}
+
+.mx-3 {
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 1rem !important;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 1 rem !important; /* Add padding for better spacing */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #4c97f8;
 }
 
 .container {
