@@ -164,6 +164,12 @@ h4 {
   display: inline-flex;
 }
 
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  text-align: center;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -241,6 +247,10 @@ blockquote, .blockquote {
   margin-bottom: 1rem !important;
   font-weight: 700;
   font-size: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem !important;
 }
 
 .table {
