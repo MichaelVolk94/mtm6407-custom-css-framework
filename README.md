@@ -24,7 +24,13 @@ Inter CSS uses two types of container classes. One for headings, and one for for
 
 `<div class="container">`
 `<!-- Headings -->`
+Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Headings.png)
+(Code)
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/heading-code.png)
+Form example:
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/form.png)
+(Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Form-code.png)
 
 
@@ -69,17 +75,11 @@ Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/table-code.png)
 
 ### Lists
-Bow Tie CSS offers basic, default styling for unordered lists, ordered lists, and description lists.
+Inter CSS offers basic, default styling for unordered lists, ordered lists, and description lists.
 Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/List.png)
-
 (Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/list-code.png)
 
+
 Custom CSS Framework - Web Development IV - MTM6407
-
-
-
-
--Installation, usage, and customization instructions must be added to the README file.
--https://www.markdownguide.org/cheat-sheet/ 
