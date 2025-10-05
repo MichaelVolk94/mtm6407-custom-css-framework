@@ -46,6 +46,9 @@ Use `.d-flex`, `.flex-row` or one of the responsive variants (e.g., `.flex-colum
 - .flex-row sets a horizontal direction.
 - .flex-column sets a vertical direction.
 
+Example:
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/flexbox.png)
+
 (Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/flex-direction.png)
 
