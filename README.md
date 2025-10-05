@@ -17,7 +17,7 @@ Inter CSS uses the following breakpoints in our source Sass files for the layout
 
 It's required to use SCSS reset for this framework. Resets adresses inconsistencies in how browsers render default styles for HTML elements. The reset element was used on the html to fix mobile safari users to increase font size on landscape mode, giving the live server instant stability. 
 
-The font element was used as a way to connect a custom font with the @use tag, as it was required to move it forward to help control scope and reusability, specifically the chosen font.
+The font element was used as a way to connect a custom font with the `@use` tag, as it was required to move it forward to help control scope and reusability, specifically the chosen font.
 
 ### Containers
 Inter CSS uses two types of container classes. One for headings, and one for form.
@@ -31,21 +31,12 @@ Inter CSS uses two types of container classes. One for headings, and one for for
 ### Flexbox
 Use `.d-flex`, `.flex-row` or one of the responsive variants (e.g., `.flex-column`, `.align-items`) to utilize flexbox display on alignments.
 
-- Flex Direction
-.flex-row sets a horizontal direction.
-.flex-column sets a vertical direction.
+### Flex Direction
+- .flex-row sets a horizontal direction.
+- .flex-column sets a vertical direction.
 
 (Code)
-<div class="d-flex flex-row justify-content-between mx-3 bg-default-light">
-            <div class="p-2 bg-default">Flex item 1</div>
-            <div class="p-2 bg-default">Flex item 2</div>
-            <div class="p-2 bg-default">Flex item 3</div>
-        </div>
-        <div class="d-flex flex-column align-items-end mx-3 bg-default-light mb-3">
-            <div class="p-2 bg-primary-light">Flex item 1</div>
-            <div class="p-2 align-self-center bg-primary-light">Flex item 2</div>
-            <div class="p-2 bg-primary-light">Flex item 3</div>
-        </div>
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/flex-direction.png)
 
 ### Width
 Use the following classes to control the width of elements:
@@ -66,6 +57,24 @@ Use the following classes to set the text alignment:
 Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Blockquote.png)
 
+(Code)
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/blockquote-code.png)
+
+### Table
+Use the following classes to create and style table elements:
+- .table
+Example:
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Table.png)
+(Code)
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/table-code.png)
+
+### Lists
+Bow Tie CSS offers basic, default styling for unordered lists, ordered lists, and description lists.
+Example:
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/List.png)
+
+(Code)
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/list-code.png)
 
 Custom CSS Framework - Web Development IV - MTM6407
 
