@@ -31,7 +31,8 @@ Example:
 
 (Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/heading-code.png)
-- Form example:
+
+Form example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/form.png)
 
 (Code)
