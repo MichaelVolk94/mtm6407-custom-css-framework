@@ -25,31 +25,8 @@ Inter CSS uses two types of container classes. One for headings, and one for for
 `<div class="container">`
 `<!-- Headings -->`
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Headings.png)
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Form-code.png)
 
-`<form class="container w-75 my-3">`
-  `<div class="row text-left mb-2">`
-    `<label for="name" class="col-4">Full Name</label>`
-    `<input type="text" class="col-8 " placeholder="Enter your name..">`
-  `</div>`
-  `<div class="row text-left mb-2">`
-    `<label for="language" class="col-4">Language</label>`
-    `<select name="language" id="language" class="col-8">`
-      `<option value="English">English</option>`
-      `<option value="French">French</option>
-      <option value="French">Spanish</option>
-      <option value="French">German</option>
-      <option value="French">Russian</option>
-      <option value="French">Japanese</option>
-      <option value="French">Slovenian</option>
-    </select>
-  </div>
-  <div class="row text-left">
-    <label for="textarea" class="col-4">Tell me know what you think</label>
-    <textarea id="textarea" cols="30" rows="5" placeholder="Enter the content.." class="col-8"></textarea>
-  </div>
-    
-  <input type="submit" value="Submit" class="btn float-left">
-</form>`
 
 ### Flexbox
 Use `.d-flex`, `.flex-row` or one of the responsive variants (e.g., `.flex-column`, `.align-items`) to utilize flexbox display on alignments.
