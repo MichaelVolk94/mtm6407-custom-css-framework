@@ -60,24 +60,29 @@ Use the following classes to set the text alignment:
 `.text-justify`
 `.blockquote`
 `.blockquote-footer`
-- Example:
+
+Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Blockquote.png)
 
-- (Code)
+(Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/blockquote-code.png)
 
 ### Table
 Use the following classes to create and style table elements:
 - .table
+
 Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Table.png)
+
 (Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/table-code.png)
 
 ### Lists
 Inter CSS offers basic, default styling for unordered lists, ordered lists, and description lists.
+
 Example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/List.png)
+
 (Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/list-code.png)
 
