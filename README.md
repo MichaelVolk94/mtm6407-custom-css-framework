@@ -22,24 +22,20 @@ The font element was used as a way to connect a custom font with the @use tag, a
 ### Containers
 Inter CSS uses two types of container classes. One for headings, and one for form.
 
-`<div class="container">
-<!-- Headings -->
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-</div>`
+`<div class="container">`
+`<!-- Headings -->`
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Headings.png)
 
-`<form class="container w-75 my-3">
-  <div class="row text-left mb-2">
-    <label for="name" class="col-4">Full Name</label>
-    <input type="text" class="col-8 " placeholder="Enter your name..">
-  </div>
-  <div class="row text-left mb-2">
-    <label for="language" class="col-4">Language</label>
-    <select name="language" id="language" class="col-8">
-      <option value="English">English</option>
-      <option value="French">French</option>
+`<form class="container w-75 my-3">`
+  `<div class="row text-left mb-2">`
+    `<label for="name" class="col-4">Full Name</label>`
+    `<input type="text" class="col-8 " placeholder="Enter your name..">`
+  `</div>`
+  `<div class="row text-left mb-2">`
+    `<label for="language" class="col-4">Language</label>`
+    `<select name="language" id="language" class="col-8">`
+      `<option value="English">English</option>`
+      `<option value="French">French</option>
       <option value="French">Spanish</option>
       <option value="French">German</option>
       <option value="French">Russian</option>
