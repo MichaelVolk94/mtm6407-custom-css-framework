@@ -24,11 +24,12 @@ Inter CSS uses two types of container classes. One for headings, and one for for
 
 `<div class="container">`
 `<!-- Headings -->`
-- Example:
+
+Example:
 
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Headings.png)
-(Code)
 
+(Code)
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/heading-code.png)
 - Form example:
 ![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/form.png)
