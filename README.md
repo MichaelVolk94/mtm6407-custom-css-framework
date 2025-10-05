@@ -91,7 +91,7 @@ Use the following classes to set the text alignment:
 `.blockquote`
 `.blockquote-footer`
 Example:
-![images](Blockquote.png)
+![image](https://github.com/MichaelVolk94/mtm6407-custom-css-framework/blob/master/images/Blockquote.png)
 
 
 Custom CSS Framework - Web Development IV - MTM6407
