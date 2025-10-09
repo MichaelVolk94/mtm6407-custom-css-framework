@@ -29,99 +29,99 @@ h4 {
     margin: 0 map-get(variables.$margin, '3');
 }
   
-  .nav-item {
+.nav-item {
     display: inline;
     margin-right: 1rem !important;
-  }
+}
   
-  .nav-link {
+.nav-link {
     text-decoration: none;
     padding: 1 rem !important; /* Add padding for better spacing */
-  }
+}
   
-  .nav-link:hover {
+.nav-link:hover {
     text-decoration: underline;
     color: #4c97f8;
-  }
+}
   
-  blockquote, .blockquote {
+blockquote, .blockquote {
     margin-top: 1rem !important;
     font-style: oblique;
     text-align: center;
     font-size: 1.5rem;
-  }
+}
   
-  .blockquote-footer {
+.blockquote-footer {
     margin-bottom: 1rem !important;
     font-weight: 700;
     font-size: 1rem;
-  }
+}
   
-  .table {
+.table {
     display: table;
-  }
+}
   
-  table, .table {
+table, .table {
     margin: 5px 0 25px 0;
-  }
+}
   
-  tr {
+tr {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-  }
+}
   
-  .bg-default {
+.bg-default {
     background-color: #1ebfff;
-  }
+}
   
-  .bg-primary {
+.bg-primary {
     background-color: #6ee4ff;
-  }
+}
   
-  .bg-secondary {
+.bg-secondary {
     background-color: #005a24;
-  }
+}
   
-  .bg-default-light {
+.bg-default-light {
     background-color: #58d0ff;
-  }
+}
   
-  .bg-primary-light {
+.bg-primary-light {
     background-color: #23fff0;
-  }
+}
   
-  ul, ol, dl {
+ul, ol, dl {
     display: block;
     margin-block-start: 0.5rem;
     margin-block-end: 1rem;
-  }
+}
   
-  ul {
+ul {
     list-style-type: square;
     padding-inline-start: 2rem;
-  }
+}
   
-  li {
+li {
     display: list-item;
     text-align: match-parent;
-  }
+}
   
-  dl {
+dl {
     padding-inline-start: 1rem;
-  }
+}
   
-  dt {
+dt {
     font-weight: 700;
-  }
+}
   
-  dd {
+dd {
     margin-bottom: 0.5rem;
-  }
+}
   
-  p {
+p {
     margin-left: 1.5rem !important;
     margin-right: 1.5rem !important;
-  }
+}
 
 form {
     border-radius: 5px;
@@ -139,9 +139,9 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     width: 15%;
     color: white;
     padding: 15px 32px;
@@ -150,12 +150,12 @@ input[type=text], select {
     border-radius: 4px;
     display: inline-block;
     cursor: pointer;
-  }
+}
 
-  textarea {
+textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     padding: 15px 15px;
     margin: 4px 0;
-  }
+}
