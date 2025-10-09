@@ -8,7 +8,12 @@ $fonts: (
 $font-body: map.get($fonts, 'inter');
 
 //Sizes
-
+$font-sm: 11px;
+$font-md: 21px;
+$font-lg: 31px;
+$font-xl: 41px;
+$font-2xl: 51px;
+$font-3xl: 62px;
 
 //Weights
 $font-light: 300;

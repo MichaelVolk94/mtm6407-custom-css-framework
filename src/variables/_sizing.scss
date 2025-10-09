@@ -1,0 +1,97 @@
+@use 'sass:map';
+
+// Margins 
+$margin: (
+    '0': 0,
+    '1': 0.75rem,
+    '2': 1rem,
+    '3': 1.5rem,
+    '4': 2rem,
+    '5': 2.5rem,
+    '6': 3rem,
+    '7': 3.5rem,
+    '8': 4rem,
+    '9': 4.5rem,
+    '10': 5rem,
+    'auto': auto
+);
+
+// Paddings
+$padding: (
+    '0': 0,
+    '1': 0.75rem,
+    '2': 1rem,
+    '3': 1.5rem,
+    '4': 2rem,
+    '5': 2.5rem,
+    '6': 3rem,
+    '7': 3.5rem,
+    '8': 4rem,
+    '9': 4.5rem,
+    '10': 5rem,
+    'auto': auto
+);
+
+@each $size, $value in $padding {
+    .p-#{$size} {
+        padding: $value;
+    }
+
+    .px-#{$size} {
+        padding-left: $value;
+        padding-right: $value;
+    }
+    
+    .py-#{$size} {
+        padding-top: $value;
+        padding-bottom: $value;
+    }
+
+    .pl-#{$size} {
+        padding-left: $value;
+    }
+
+    .pr-#{$size} {
+        padding-right: $value;
+    }
+
+    .pt-#{$size} {
+        padding-top: $value;
+    }
+
+    .pb-#{$size} {
+        padding-bottom: $value;
+    }
+}
+
+@each $size, $value in $margin {
+    .m-#{$size} {
+        margin: $value;
+    }
+
+    .mx-#{$size} {
+        margin-left: $value;
+        margin-right: $value;
+    }
+    
+    .my-#{$size} {
+        margin-top: $value;
+        margin-bottom: $value;
+    }
+
+    .ml-#{$size} {
+        margin-left: $value;
+    }
+
+    .mr-#{$size} {
+        margin-right: $value;
+    }
+
+    .mt-#{$size} {
+        margin-top: $value;
+    }
+
+    .mb-#{$size} {
+        margin-bottom: $value;
+    }
+}

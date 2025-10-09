@@ -1,0 +1,30 @@
+.col {
+    grid-column: span 1;
+  }
+  
+  .col-3 {
+    grid-column: span 3;
+  }
+  
+  .col-4 {
+    grid-column: span 4;
+  }
+  
+  .col-8 {
+    grid-column: span 8;
+  }
+  
+  .col-12 {
+    grid-column: span 12;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    text-align: center;
+  }
